@@ -10,7 +10,6 @@ describe('As part of the sql refresh workshop', () => {
 
 	const pgp = PgPromise({});
 	const db = pgp(DATABASE_URL);
-
 	// we are explicitly not using an arrow function here to support this.timeout
 	before(async function () {
 		this.timeout(5000);
