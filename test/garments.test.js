@@ -5,7 +5,6 @@ const fs = require("fs");
 require('dotenv').config()
 
 describe('As part of the sql refresh workshop', () => {
-
 	const DATABASE_URL = process.env.DATABASE_URL;
 
 	const pgp = PgPromise({});
